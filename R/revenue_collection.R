@@ -298,7 +298,8 @@ Gross_Revenue <-rev_collections %>%
  # Visualizing general fees and licences
     ggplot(data = International_Trade_Categories, 
            aes(x=Year,
-               y= Amount_Collected,                                           fill = Revenue.Collections)
+               y= Amount_Collected,                                           
+               fill = Revenue.Collections)
               )
       geom_bar(stat ="identity",
                position = position_dodge()
