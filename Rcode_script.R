@@ -5,7 +5,7 @@ library(dplyr)
 library(ggplot2)
 
 # Importing the dataset
-rev_collections <- read.csv("revenue-collections.csv")
+rev_collections <- read.csv("data/revenue-collections.csv")
 
 # checking the structure of the dataset
 str(rev_collections)
@@ -14,7 +14,7 @@ str(rev_collections)
 View(rev_collections)
 # there is a problem with the way the headers were made. lets remove the first row
 # Deleting the title manually from excel. its the easiest
-rev_collections <- read.csv("revenue-collections.csv", 
+rev_collections <- read.csv("data/revenue-collections.csv", 
                             na.strings = "NA",
                             stringsAsFactors = F)
 
@@ -121,4 +121,99 @@ Gross_Revenue <-rev_collections %>%
  # What happened in 2011 that there are many offences 
  
  # Deeper into the categories of fees
+ General_fees_categories <- rev_collections%>%
+   select(Revenue.Collections,
+          Year,
+          Amount_Collected)%>%
+   filter(Revenue.Collections ==" -Fees & Licenses (Traffic Act)"|
+            Revenue.Collections ==" -Drivers Permits"|
+            Revenue.Collections ==" -Stamp duty & Embossing Fees"|
+            Revenue.Collections =="Road User Charges"|
+            Revenue.Collections =="Airport Service Tax"|
+            Revenue.Collections =="Airport Service Tax"
+            )
+ # Visualizing the categories
+ # Visualizing general fees and licences
+ ggplot(data = General_fees_categories, aes(x=Year,
+                                       y= Amount_Collected, 
+                                       fill = Revenue.Collections)
+ )+
+   geom_bar(stat ="identity",
+            position = position_dodge()
+   )+
+   coord_flip()+
+   ggtitle(paste("General Amount for Fees and Licenses with Categories"))+
+   labs(
+     caption = "Source of Data: Data.Ug"
+   )
+ # We clearly see now that 2011-2012 had a high ammount of Stamp duty &Embosing Fees
+ # Possibly that could be the reason it does not follow the increasing trends over years
+ # Currently Drivers Permits is promising to have a high increase
+ # Generally more fees are collected from Traffic Act over years though in 2011-12 and 2016-17 is where Stamp duty & Embossing Fees were higher
  
+ #............ Domestic Taxes
+ 
+ Domestic_Taxes <- rev_collections %>%
+   select(Revenue.Collections,Year,Amount_Collected)%>%
+   filter(Revenue.Collections == "Domestic Taxes")
+ 
+ # Visualizing the Domestic Tax collected
+ ggplot(data = Domestic_Taxes, aes(x=Year, y= Amount_Collected)
+ )+
+   geom_bar(colour = "orange",
+            stat ="identity",
+            fill = "red")+
+   coord_flip() +
+   ggtitle(paste("Gross Domestic Taxes Amounts collected over Years"))+
+   labs(
+     caption = "Source of Data: Data.Ug"
+   )
+ # There has been higher increase in revenue from one year to next starting from 2003-04 apart from 2012-13 where the increase was low
+ 
+ #.. Direct Domestic Taxes
+ D_Domestic_Taxes <- rev_collections %>%
+   select(Revenue.Collections,Year,Amount_Collected)%>%
+   filter(Revenue.Collections == "Direct Domestic Taxes")
+ 
+ ggplot( data = D_Domestic_Taxes, 
+         aes(x = Year, 
+             y= Amount_Collected
+            ))+
+   geom_bar(colour = "orange",
+            stat = "identity",
+            fill = "red")+
+   coord_flip()+
+   ggtitle("Direct Domestic Taxes Collected Over Years")+
+   labs(caption = "Source of Data: Data.ug")
+ # Follows the same trend as that of general Domestic Taxes
+ 
+ # Breaking Down the Direct Domestic Taxes into Categories
+ D_Domestic_Categories <- rev_collections%>%
+   select(Revenue.Collections,Year, Amount_Collected)%>%
+   filter(Revenue.Collections == " -PAYE"|
+            Revenue.Collections == " -Corporation Tax"|
+            Revenue.Collections == " -Other Income Tax"|
+            Revenue.Collections == " -Withholding Tax"|
+            Revenue.Collections == " -Tax on Bank Interest"|
+            Revenue.Collections == " -Casino and Lottery Tax"|
+            Revenue.Collections == " -Agricultural products"|
+            Revenue.Collections == "Un-allocated Revenue")
+ 
+ # Visualizing the Direct Domestic Taxes 
+ # Visualizing general fees and licences
+ ggplot(data = D_Domestic_Categories, aes(x=Year,
+                                            y= Amount_Collected, 
+                                            fill = Revenue.Collections)
+ )+
+   geom_bar(stat ="identity",
+            position = position_dodge()
+   )+
+   coord_flip()+
+   ggtitle(paste("Direct Domestic Taxes Collected over Years with Categories"))+
+   labs(
+     caption = "Source of Data: Data.Ug"
+     )
+ # More Taxes is collected through PAYE, there is a sharp increase of PAYE as years increases from 2003-04
+ # Either many people are getting jobs as years increase or government is increasing Taxes
+ 
+   
