@@ -100,3 +100,25 @@ Gross_Revenue <-rev_collections %>%
    labs(
      caption = "Source of Data: Data.Ug"
    )
+ 
+ # .............Fees and licences
+ # General Fees and Licences over Years
+ General_Fees_and_L <- rev_collections %>% select(Revenue.Collections,Year,Amount_Collected)%>%
+   filter(Revenue.Collections == "Fees and Licenses")
+ # Visualizing general fees and licences
+ ggplot(data = General_Fees_and_L, aes(x=Year,
+                        y= Amount_Collected, 
+                        fill = Revenue.Collections)
+ )+
+   geom_bar(stat ="identity",
+            position = position_dodge()
+   )+
+   coord_flip()+
+   ggtitle(paste("General Amount for Fees and Licenses collected over Years"))+
+   labs(
+     caption = "Source of Data: Data.Ug"
+   )
+ # What happened in 2011 that there are many offences 
+ 
+ # Deeper into the categories of fees
+ 
