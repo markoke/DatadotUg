@@ -100,8 +100,57 @@ Gross_Revenue <-rev_collections %>%
    labs(
      caption = "Source of Data: Data.Ug"
    )
+
+ # .. Excise Duty
+ Excise_Duty <- rev_collections%>%
+   select(Revenue.Collections,Year,Amount_Collected)%>%
+   filter(Revenue.Collections =="Excise duty:")
+#Visualizing Excise Duty results
+ ggplot(data = Excise_Duty, aes(x=Year,
+                                y= Amount_Collected 
+                                )
+ )+
+   geom_bar(stat ="identity",
+            position = position_dodge(),
+            fill = "Red",
+            colour = "orange"
+   )+
+   coord_flip()+
+   ggtitle(paste("Excise Duty Amounts Collected Over Years"))+
+   labs(
+     caption = "Source of Data: Data.Ug"
+   )
  
- # .............Fees and licences
+ # Deeper into excise duty categories
+ Excise_Duty_Categories <- rev_collections %>%
+   select(Revenue.Collections,Year,Amount_Collected)%>%
+   filter(Revenue.Collections == "e-Cigarettes"|
+            Revenue.Collections == "e-Beer"|
+            Revenue.Collections == "e-Spirit/Waragi"|
+            Revenue.Collections == "e-Soft Drinks"|
+            Revenue.Collections == "e-Sugar"|
+            Revenue.Collections == "e-Bottled Water"|
+            Revenue.Collections == "e-Cement"|
+            Revenue.Collections == "e-Other Goods and services"|
+            Revenue.Collections == "e-Phone Talk time"
+   )
+ 
+ #Visualizing Excise Year Categories 
+ ggplot(data = Excise_Duty_Categories, aes(x=Year,
+                        y= Amount_Collected, 
+                        fill = Revenue.Collections)
+ )+
+   geom_bar(stat ="identity",
+            position = position_dodge()
+   )+
+   coord_flip()+
+   ggtitle(paste("Exicse Duty Amounts collected over Years"))+
+   labs(
+     caption = "Source of Data: Data.Ug"
+   )
+ # High excise duty is got from beer and phone talk time respectively
+ 
+  # .............Fees and licences
  # General Fees and Licences over Years
  General_Fees_and_L <- rev_collections %>% select(Revenue.Collections,Year,Amount_Collected)%>%
    filter(Revenue.Collections == "Fees and Licenses")
@@ -216,4 +265,48 @@ Gross_Revenue <-rev_collections %>%
  # More Taxes is collected through PAYE, there is a sharp increase of PAYE as years increases from 2003-04
  # Either many people are getting jobs as years increase or government is increasing Taxes
  
+ #.............International Trade
+ International_trade <- rev_collections %>%
+      select(Revenue.Collections,Year,Amount_Collected)%>%
+      filter(Revenue.Collections == "Taxes on International Trade")
+ # Visualizing the International Trade Tax collected
+    ggplot(data = International_trade, 
+           aes(x=Year, y= Amount_Collected)
+              )+
+      geom_bar(colour = "orange",
+               stat ="identity",
+               fill = "red")+
+      coord_flip() +
+      ggtitle(paste("Internation Trade Taxes Amounts collected over Years"))+
+      labs(
+          caption = "Source of Data: Data.Ug"
+        )
+    
+    #Internal trade categories
+  International_Trade_Categories <- rev_collections%>%
+       select(Revenue.Collections,Year, Amount_Collected)%>%
+       filter(Revenue.Collections == " -Petroleum duty"|
+                 Revenue.Collections == " -Import duty"|
+                 Revenue.Collections == " -Excise duty"|
+                 Revenue.Collections == " -Surcharge on Used Imports"|
+                 Revenue.Collections == " -VAT on Imports"|
+                 Revenue.Collections == " -Withholding Taxes"|
+                 Revenue.Collections == " -Temporary Road Licenses"|
+                 Revenue.Collections == " -Commission on Imports"|
+                 Revenue.Collections == " -Re-exports levy"|
+                 Revenue.Collections == " -Hides & Skins levy/Exports Levy")
+ # Visualizing general fees and licences
+    ggplot(data = International_Trade_Categories, 
+           aes(x=Year,
+               y= Amount_Collected,                                           fill = Revenue.Collections)
+              )
+      geom_bar(stat ="identity",
+               position = position_dodge()
+               )
+      coord_flip()+
+      ggtitle(
+        paste("International trade Taxes Collected over Years with Categories"))+
+      labs(
+           caption = "Source of Data: Data.Ug"
+          )
    
