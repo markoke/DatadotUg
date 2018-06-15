@@ -52,4 +52,5 @@ uganda_map
 #Visualizing the mines
 uganda_map+ geom_point(data = artisanal_data,
                         aes(x = Longitude, y = Latitude, color = Commodity))+
-  ggtitle("Artisanal Mines areas in Uganda")
+  ggtitle("Artisanal Mines areas in Uganda") +
+  labs(caption = "Source of Data: Data.ug")

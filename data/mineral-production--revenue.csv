@@ -1,0 +1,356 @@
+Year,Mineral,Average Price per Tonne in 1000s of UGX,Quantity in Tonnes,Value in 1000s of UGX
+2018,Limestone,120,85180.21,10221625.2
+2018,Pozollana,21,20470.94,429889.74
+2018,Gold,131030270,0,0
+2018,Vermiculite,579,0,0
+2018,Cobalt**,80428.954,0,0
+2018,Wolfram,34575,0,0
+2018,Syenitic Aggregate,1.5,0,0
+2018,Kaolin,100,748.36,74836
+2018,Iron Ore ,271.29264,0,0
+2018,Granite,100,0,0
+2018,Lead,5000,0,0
+2018,Coltan (30% Purity),28413,0,0
+2018,Tin (75% Purity),34034,0,0
+2018,Beryl (1% Beryllium),8714.75,-,0
+2018,Manganese (Above 46% Mn),3037,0,0
+2017,Limestone,120,1231925.5,147831060
+2017,Pozollana,21,792563.86,16643841
+2017,Gold,131030270,0.00382,501086
+2017,Vermiculite,579,4119.3,2385075
+2017,Cobalt**,80429,0,0
+2017,Wolfram,34575,77.85,2691664
+2017,Syenitic Aggregate,1.5,93638.91,140458
+2017,Kaolin,100,55316.57,5531657
+2017,Iron Ore ,271.29264,2320,629399
+2017,Granite,100,60,6000
+2017,Lead,5000,0,0
+2017,Coltan (30% Purity),28413,11.19,317856
+2017,Tin (75% Purity),34034,87.86,2990125
+2017,Beryl (1% Beryllium),8715,-,0
+2017,Manganese (Above 46% Mn),3037,0,0
+2016,Limestone,120,1203073.5,144368820
+2016,Pozollana,21,846604.09,17778685.89
+2016,Gold,131030270,0.01422208,1863522.982
+2016,Vermiculite,579,3294.61,1907579.19
+2016,Cobalt**,80428.954,0,0
+2016,Wolfram,34575,52.3,1808272.5
+2016,Syenitic Aggregate,1.5,81412.97,122119.455
+2016,Kaolin,100,45909.49,4590949
+2016,Iron Ore ,271.29264,2163.3,586887.3681
+2016,Gypsum,100,0,0
+2016,Lead,5000,0,0
+2016,Coltan (30% Purity),28413,13.033,370306.629
+2016,Tin (75% Purity),34034,77.167,2626301.678
+2016,Beryl (1% Beryllium),8714.75,-,0
+2016,Manganese (Above 46% Mn),3037,0,0
+2015,Limestone,120,1166741.33,140008959.6
+2015,Pozollana,21,762768.19,16018131.99
+2015,Gold,117291.3685,0.01272857,1492.951394
+2015,Vermiculite,579,1213.2,702442.8
+2015,Cobalt**,80428.954,0,0
+2015,Wolfram,34575,45.4,1569705
+2015,Syenitic Aggregate,1.5,82715.64,124073.46
+2015,Kaolin,100,40774.04,4077404
+2015,Iron Ore ,271.29264,9000,2441633.76
+2015,Gypsum,100,-,0
+2015,Lead,5000,-,0
+2015,Coltan (30% Purity),28413,4.7465,134862.3045
+2015,Tin (75% Purity),34034,180.3,6136330.2
+2015,Beryl (1% Beryllium),8714.75,-,0
+2015,Manganese (Above 46% Mn),3037,0,0
+2014,Limestone,120,1090240.26,
+2014,Pozollana,21,742423.12,130828831
+2014,Gold,117291,0.02,15590886
+2014,Vermiculite,579,2660.75,2860
+2014,Cobalt**,80429,0,1540574
+2014,Crude cobalt carbonate,1408,0,0
+2014,Wolfram,34575,79.63,0
+2014,Syenitic Aggregate,1.5,64603.84,2753034
+2014,Kaolin,100,46286.02,96906
+2014,Iron Ore ,271.29264,41959,4628602
+2014,Gypsum,100,-,11383168
+2014,Lead,5000,-,0
+2014,Coltan (30% Purity),28413,0.48,0
+2014,Tin (75% Purity),34034,44.5,13638
+2014,Beryl (1% Beryllium),8715,-,1514673
+2014,Manganese (Above 46% Mn),3037,0,0
+2013,Limestone,120,922371.82,110684618.4
+2013,Pozollana,21,623470.58,13092882.18
+2013,Gold,117291.3685,5.2876,620189.8401
+2013,Vermiculite,579,2296.6,1329731.4
+2013,Cobalt**,80428.954,291.314,23430080.31
+2013,Crude cobalt carbonate,1408,566.7,797913.6
+2013,Wolfram,34575,72.4,2503230
+2013,Syenitic Aggregate,1.5,109905.68,164858.52
+2013,Kaolin,100,43875.27,4387527
+2013,Iron Ore ,271.29264,2282.47,619217.312
+2013,Gypsum,100,0,0
+2013,Lead,5000,0,0
+2013,Coltan (30% Purity),28413,0,0
+2013,Tin (75% Purity),34034,25.624,872087.216
+2013,Beryl (1% Beryllium),8714.75,0,0
+2013,Manganese (Above 46% Mn),3037,0,0
+2012,Limestone,120,932263.66,112351639
+2012,Pozollana,21,650232.76,13656799
+2012,Gold,117291,0.004,508
+2012,Vermiculite,579,51961.8,30085882
+2012,Cobalt**,80429,555.8,44702413
+2012,Wolfram,34575,43.4,1500555
+2012,Syenitic Aggregate,1.5,20472.16,30708
+2012,Kaolin,100,42886.46,4288646
+2012,Iron Ore ,21729264,4431.18,1202147
+2012,Gypsum,100,0,0
+2012,Lead,5000,0,0
+2012,Coltan (30% Purity),28413,0,0
+2012,Tin (75% Purity),34034,0,0
+2012,Beryl (1% Beryllium),8715,0,0
+2012,Manganese (Above 46% Mn),3037,0,0
+2011,Limestone,120,932348.22,111881786.4
+2011,Pozollana,21,690910.62,14509123.02
+2011,Gold,117291.3685,0.0004863,57.0387925
+2011,Vermiculite,579,7960.42,4609083.18
+2011,Cobalt**,64815,673.06876,43624951.68
+2011,Wolfram,34575,10.043,347236.725
+2011,Syenitic Aggregate,1.5,9764.98,14647.47
+2011,Kaolin,100,20883.32,2088332
+2011,Iron Ore ,271.29264,2133.82,578889.6611
+2011,Gypsum,100,-,0
+2011,Lead,5000,-,0
+2011,Coltan (30% Purity),28413,0.009,255.717
+2011,Tin (75% Purity),34034,0.009,306.306
+2011,Beryl (1% Beryllium),8714.75,-,0
+2011,Manganese (Above 46% Mn),3037,0,0
+2010,Limestone,120,634673.48,76160817.6
+2010,Pozollana,21,446315.9,9372633.9
+2010,Gold,83832.78581,0.00386674,324.1595862
+2010,Vermiculite,579,1121.47,649331.13
+2010,Cobalt**,59778.71222,568.24,33968655.43
+2010,Wolfram,34575,55.165,1907329.875
+2010,Syenitic Aggregate,1.5,14337.55,21506.325
+2010,Kaolin,100,27236.75,2723675
+2010,Iron Ore ,70,3794.74,265631.8
+2010,Gypsum,,-,0
+2010,Lead,,-,0
+2010,Coltan (30% Purity),28413,0.009,255.717
+2010,Tin (75% Purity),34034,32,1089088
+2010,Beryl (1% Beryllium),,-,0
+2010,Manganese (Above 46% Mn),3037,10,30370
+2007,Limestone,,447462.76,
+2007,Lava Ash,,-,
+2007,Pozzolana,,280522.32,
+2007,Alluminous Clay,,-,
+2007,Limonite,,-,
+2007,Iron Ore,,365.99,
+2007,Kaolin,,8152.16,
+2007,Gypsum,,168.24,
+2007,Gold,,0.02543,
+2007,Wolfram Ore,,107.89,
+2007,Cassiterite,,23.8,
+2007,Cobalt,,636.26,
+2007,Columbite_Tantalite,,0.1,
+2007,Vermiculite,,3269,
+2007,Galena,,38,
+2007,Aggregates,,8994.18,
+2007,Beryl (1% Beryllium),,2,
+2006,Limestone,,425610.67,
+2006,Lava Ash,,-,
+2006,Pozzolana,,213639.9,
+2006,Alluminous Clay,,-,
+2006,Limonite,,-,
+2006,Iron Ore,,-,
+2006,Kaolin,,-,
+2006,Gypsum,,121.2,
+2006,Gold,,0.021919,
+2006,Wolfram Ore,,94.802,
+2006,Cassiterite,,-,
+2006,Cobalt,,689.21,
+2006,Columbite_Tantalite,,0.103,
+2006,Vermiculite,,3512,
+2006,Galena,,46,
+2006,Aggregates,,6080,
+2006,Beryl (1% Beryllium),,-,
+2005,Limestone,,540755.59,
+2005,Lava Ash,,5052.89,
+2005,Pozzolana,,138932.65,
+2005,Alluminous Clay,,-,
+2005,Limonite,,-,
+2005,Iron Ore,,208.53,
+2005,Kaolin,,55,
+2005,Gypsum,,285.31,
+2005,Gold,,0.046,
+2005,Wolfram Ore,,45.11,
+2005,Cassiterite,,-,
+2005,Cobalt,,637.84,
+2005,Columbite_Tantalite,,0.273,
+2005,Vermiculite,,2574,
+2005,Galena,,,
+2005,Aggregates,,4519,
+2005,Beryl (1% Beryllium),,-,
+2004,Limestone,,428775.87,
+2004,Lava Ash,,134643.97,
+2004,Pozzolana,,65586.98,
+2004,Alluminous Clay,,-,
+2004,Limonite,,-,
+2004,Iron Ore,,-,
+2004,Kaolin,,537,
+2004,Gypsum,,181.22,
+2004,Gold,,0.178,
+2004,Wolfram Ore,,153.919,
+2004,Cassiterite,,2.7,
+2004,Cobalt,,459.01,
+2004,Columbite_Tantalite,,4.195,
+2004,Vermiculite,,2688,
+2004,Galena,,,
+2004,Aggregates,,,
+2004,Beryl (1% Beryllium),,-,
+2003,Limestone,,226408.46,
+2003,Lava Ash,,,
+2003,Pozzolana,,65586.98,
+2003,Alluminous Clay,,-,
+2003,Limonite,,-,
+2003,Iron Ore,,-,
+2003,Kaolin,,-,
+2003,Gypsum,,42.79,
+2003,Gold,,0.04,
+2003,Wolfram Ore,,2.16,
+2003,Cassiterite,,1,
+2003,Cobalt,,,
+2003,Columbite_Tantalite,,16.24,
+2003,Vermiculite,,1724,
+2003,Galena,,,
+2003,Aggregates,,,
+2003,Beryl (1% Beryllium),,-,
+2002,Limestone,,140022.51,
+2002,Lava Ash,,,
+2002,Pozzolana,,12388.44,
+2002,Alluminous Clay,,-,
+2002,Limonite,,-,
+2002,Iron Ore,,-,
+2002,Kaolin,,178,
+2002,Gypsum,,5.12,
+2002,Gold,,0.002565,
+2002,Wolfram Ore,,24.817,
+2002,Cassiterite,,,
+2002,Cobalt,,,
+2002,Columbite_Tantalite,,6.463,
+2002,Vermiculite,,664,
+2002,Galena,,,
+2002,Aggregates,,,
+2002,Beryl (1% Beryllium),,-,
+2001,Limestone,,229792,
+2001,Lava Ash,,-,
+2001,Pozzolana,,29619.24,
+2001,Alluminous Clay,,-,
+2001,Limonite,,-,
+2001,Iron Ore,,1236.31,
+2001,Kaolin,,90,
+2001,Gypsum,,-,
+2001,Gold,,0.000142,
+2001,Wolfram Ore,,26.686,
+2001,Cassiterite,,-,
+2001,Cobalt,,511.992,
+2001,Columbite_Tantalite,,11.09189,
+2001,Vermiculite,,-,
+2001,Galena,,,
+2001,Aggregates,,,
+2001,Beryl (1% Beryllium),,-,
+2000,Limestone,,253.032,
+2000,Lava Ash,,2231,
+2000,Pozzolana,,35602.5,
+2000,Alluminous Clay,,2400.88,
+2000,Limonite,,2231,
+2000,Iron Ore,,2400.88,
+2000,Kaolin,,2.712,
+2000,Gypsum,,0.12,
+2000,Gold,,14,
+2000,Wolfram Ore,,-,
+2000,Cassiterite,,-,
+2000,Cobalt,,410.754,
+2000,Columbite_Tantalite,,2712,
+2000,Vermiculite,,-,
+2000,Galena,,,
+2000,Aggregates,,,
+2000,Beryl (1% Beryllium),,,
+1999,Limestone,,121521.4,
+1999,Lava Ash,,7275.52,
+1999,Pozzolana,,12451.3,
+1999,Alluminous Clay,,486.14,
+1999,Limonite,,316918,
+1999,Iron Ore,,61.28,
+1999,Kaolin,,197.14,
+1999,Gypsum,,256.3,
+1999,Gold,,0.00473,
+1999,Wolfram Ore,,0.32,
+1999,Cassiterite,,0.49,
+1999,Cobalt,,76.74,
+1999,Columbite_Tantalite,,-,
+1999,Vermiculite,,-,
+1999,Galena,,,
+1999,Aggregates,,,
+1999,Beryl (1% Beryllium),,,
+1998,Gold,,0.00815,
+1998,Cassaterite,,1.102,
+1998,Columbite_Tantalite,,0,
+1998,Cobalt,,0,
+1998,Wolfram Ore,,7.832,
+1998,Iron Ore,,785,
+1998,Galena,,0,
+1998,Pozzolana,,0,
+1998,Limestone,,140235,
+1998,Gypsum,,143.35,
+1998,Kaolin,,100,
+1998,Aggregates,,0,
+1998,Vericulite,,0,
+1997,Gold,,0.00064,
+1997,Cassaterite,,1.81,
+1997,Columbite_Tantalite,,0,
+1997,Cobalt,,0,
+1997,Wolfram Ore,,1.175,
+1997,Iron Ore,,2432,
+1997,Galena,,0,
+1997,Pozzolana,,0,
+1997,Limestone,,919353,
+1997,Gypsum,,0,
+1997,Kaolin,,0,
+1997,Aggregates,,0,
+1997,Vericulite,,0,
+1996,Gold,,0.003,
+1996,Cassaterite,,0.38,
+1996,Columbite_Tantalite,,0,
+1996,Cobalt,,0,
+1996,Wolfram Ore,,0,
+1996,Iron Ore,,200,
+1996,Galena,,0,
+1996,Pozzolana,,0,
+1996,Limestone,,159479,
+1996,Gypsum,,2281,
+1996,Kaolin,,0,
+1996,Aggregates,,0,
+1996,Vericulite,,0,
+1995,Gold,,0.0015,
+1995,Cassaterite,,4.289,
+1995,Columbite_Tantalite,,1.824,
+1995,Cobalt,,0,
+1995,Wolfram Ore,,17.31,
+1995,Iron Ore,,7,
+1995,Galena,,0,
+1995,Pozzolana,,0,
+1995,Limestone,,209512,
+1995,Gypsum,,5487,
+1995,Kaolin,,0,
+1995,Aggregates,,0,
+1995,Vericulite,,0,
+1994,Gold,,0.001627,
+1994,Cassaterite,,3.704,
+1994,Columbite_Tantalite,,0.435,
+1994,Cobalt,,0,
+1994,Wolfram Ore,,14.281,
+1994,Iron Ore,,23.95,
+1994,Galena,,0,
+1994,Pozzolana,,0,
+1994,Limestone,,163,
+1994,Gypsum,,408,
+1994,Kaolin,,0,
+1994,Aggregates,,0,
+1994,Vericulite,,0,
